@@ -166,6 +166,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas2:hover {
+    background-color: aliceblue;}
 
 .estrellas3 {
     position: absolute;
@@ -176,6 +178,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas3:hover {
+    background-color: aliceblue;}
 
 .estrellas4 {
     position: absolute;
@@ -186,6 +190,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas4:hover {
+    background-color: aliceblue;}
 
 .estrellas5 {
     position: absolute;
@@ -196,6 +202,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas5:hover {
+    background-color: aliceblue;}
 
 .estrellas6 {
     position: absolute;
@@ -205,6 +213,12 @@ body {
     left: 250px;
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    transition:all 0.5s ease;
+}
+.estrellas6:hover {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
 }
 
 .estrellas7 {
@@ -216,6 +230,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas7:hover {
+    background-color: aliceblue;}
 
 .estrellas8 {
     position: absolute;
@@ -225,7 +241,14 @@ body {
     left: 450px;
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    transition:all 2s ease;
 }
+
+.estrellas8:hover {
+    background-color: aliceblue;
+     width: 90px;
+     height: 90px
+     }
 
 .estrellas9 {
     position: absolute;
@@ -235,6 +258,12 @@ body {
     left: 600px;
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    transition:all 2s ease;
+}
+.estrellas9:hover {
+    background-color: aliceblue;
+    top: 300px;
+    left: 500px;
 }
 
 .estrellas10 {
@@ -246,6 +275,8 @@ body {
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
 }
+.estrellas10:hover {
+    background-color: aliceblue;}
 
 .estrellas11 {
     position: absolute;
@@ -255,8 +286,16 @@ body {
     left: 500px;
     background-color: rgb(236, 205, 33);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+    transition:all 2s ease;
 }
-
+.estrellas11:hover {
+    background-color: aliceblue;
+     width: 90px;
+     height: 90px
+     top: 0px;
+     left: 0px;
+    
+     }
 .castillo2 {
     position: absolute;
     width: 200px;
@@ -266,6 +305,11 @@ body {
     left: 800px;
     background-color: rgb(44, 89, 46);
     border-radius: 100px 100px 0 0;
+}
+
+.castillo2:hover {
+    top: 590px;
+    left: 700px;
 }
 
 .castillo3 {
@@ -448,6 +492,20 @@ body {
     left: 960px;
 
     z-index: -1;
+
+}
+
+.puerta {
+    position: absolute;
+    width: 52px;
+    height: 90px;
+    background-color: rgb(133, 49, 4);
+
+    top: 600px;
+    left: 890px;
+
+    z-index: -1;    
+}
     
 }
     
